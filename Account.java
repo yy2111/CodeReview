@@ -1,5 +1,6 @@
 public class Account {
-  double principal,rate; int daysActive,accountType;
+  private double principal,rate; 
+  private int daysActive,accountType;
   public static final int STANDARD = 0, BUDGET=1,
       PREMIUM=2, PREMIUM_PLUS = 3;
   } ...
